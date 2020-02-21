@@ -21,7 +21,7 @@ class SpriteTest {
     @Test
     void aBartenderShouldAcceptAnOrderForSprite() {
         Bartender jane = new Bartender();
-        String productName = "ch.heigvd.res.chill.domain.wasadigi.Sprite";
+        String productName = "ch.heigvd.res.chill.domain.Naludrag.Sprite";
         OrderRequest request = new OrderRequest(3, productName);
         OrderResponse response = jane.order(request);
         BigDecimal expectedTotalPrice = Sprite.PRICE.multiply(new BigDecimal(3));
