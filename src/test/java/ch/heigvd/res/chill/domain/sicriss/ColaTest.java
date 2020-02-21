@@ -1,14 +1,7 @@
 package ch.heigvd.res.chill.domain.sicriss;
 
 import ch.heigvd.res.chill.domain.Bartender;
-import ch.heigvd.res.chill.domain.wasadigi.Boxer;
-import ch.heigvd.res.chill.protocol.OrderRequest;
-import ch.heigvd.res.chill.protocol.OrderResponse;
-import org.junit.jupiter.api.Test;
-
-import java.math.BigDecimal;
-
-import ch.heigvd.res.chill.domain.Bartender;
+import ch.heigvd.res.chill.domain.sicriss.Cola;
 import ch.heigvd.res.chill.protocol.OrderRequest;
 import ch.heigvd.res.chill.protocol.OrderResponse;
 import org.junit.jupiter.api.Test;
