@@ -15,8 +15,8 @@ class ValaisanneTest {
   @Test
   void thePriceAndNameForBoxerShouldBeCorrect() {
     Valaisanne beer = new Valaisanne();
-    assertEquals(beer.getName(), Boxer.NAME);
-    assertEquals(beer.getPrice(), Boxer.PRICE);
+    assertEquals(beer.getName(), Valaisanne.NAME);
+    assertEquals(beer.getPrice(), Valaisanne.PRICE);
   }
 
   @Test
