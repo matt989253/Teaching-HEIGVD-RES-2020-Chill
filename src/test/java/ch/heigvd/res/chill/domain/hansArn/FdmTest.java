@@ -1,4 +1,4 @@
-package ch.heigvd.res.chill.domain.wasadigi;
+package ch.heigvd.res.chill.domain.hansArn;
 
 import ch.heigvd.res.chill.domain.Bartender;
 import ch.heigvd.res.chill.protocol.OrderRequest;
@@ -20,7 +20,7 @@ public class FdmTest {
     @Test
     void aBartenderShouldAcceptAnOrderForFdm() {
         Bartender jane = new Bartender();
-        String productName = "ch.heigvd.res.chill.domain.wasadigi.FinDuMonde";
+        String productName = "ch.heigvd.res.chill.domain.hansArn.FinDuMonde";
         OrderRequest request = new OrderRequest(3, productName);
         OrderResponse response = jane.order(request);
         BigDecimal expectedTotalPrice = FinDuMonde.PRICE.multiply(new BigDecimal(3));
